@@ -846,7 +846,7 @@ intro_text = ("    Castle Dawnstar... built over 200 years ago at the base of Mo
 "alive. The legends say that Anton\'s grand treasure hoard is still safely locked away\n"
 "in the vault, and it is to this end that you make your way to the casle, in search of...\n\n\n\n")
 
-title_card = "THE TREASURE OF CASTLE DAWNSTAR\n\n".center(80)
+title_card = "THE TREASURE OF CASTLE DAWNSTAR\n\n".center(80) 
 about_name = "A game by Reimi\n\n".center(80)			
 
 intro_b = ("As you approach the castle, you feel a sense of unease as you realize how eerily\n"
@@ -925,7 +925,7 @@ dun_hall = Zone(name='DUNGEON CORRIDOR',
 	in_area='THE CASTLE DUNGEON')
 ward_offc = Zone(name='WARDEN\'S OFFICE',
 	look_desc='This office once housed the castle\'s notorious dungeon keeper. In times\n'
-			  'past, it was often said that any who were sentence to the dungeon would,\n' 
+			  'past, it was often said that any who were sentenced to the dungeon would,\n' 
 			  'meet a sinister end. The furniture belonging to the warden is exquisite,\n'
 			  'including a finely crafted oak desk, and a massive bed with a gold-trimmed\n'
 			  'frame. The Warden\'s  RED DIARY still rests upon his desk. There is an exit to the\n'
@@ -1008,7 +1008,7 @@ s_loton = NPC(name='LOTON', title='THE SOLDIER',
 			dia0='Ah, an adventurer! Another one into the meat grinder, eh?',
 			dia1='What, why so serious? I\'ve only seen dozens of self-proclaimed \'Treasure\n'
 			'Hunters\' like yourself send themselves to a messy demise over the years.', 
-			dia2='It\'s that blasted beast upstairs what does it, you see. The damned thing\n'
+			dia2='It\'s that blasted beast upstairs what does it, you see. The accursed thing\n'
 			'can only be harmed by silver weapons, but silver is long since gone from this land\n'
 			'nowadays, so it may as well be immortal.',
 			dia3='Listen, some honest advice from me to you... if you encounter that... thing...\n'
@@ -1023,7 +1023,7 @@ a_anton = NPC(name='ANTON', title='THE WARLORD',
 			'my soulbinding ritual went sour, I\'ve been trapped here with my men. It gets rather tiring\n'
 			'after fifty years or so... Yes, even us ghosts get tired! Bwahaha!', 
 			dia2='Hmm... well, I can tell you where the treasure is, but you must do me a favor in.\n'
-			'exchange. Please... go to the castle\'s alchemy lab, and reverse my damned soulbinding.\n'
+			'exchange. Please... go to the castle\'s alchemy lab, and reverse my accursed soulbinding.\n'
 			'I was a fool... and my men deserve to rest. The treasure vault is hidden behind the library.\n'
 			'You\'ll need some \'book smarts\' to get in, hahah!',
 			max_dia_cycle=2)
@@ -1243,7 +1243,7 @@ cell_b_journal = InteractObject(name='FADED JOURNAL',
 				'pages are too worn to read, but one entry remains intact:\n\n'
 				'    14 Bluestar, 13#&\n\n'
 				'That blasted oaf! I had almost done it! I was so close to the treasure...\n'
-				'but then that damned librarian felt the need to take a midnight stroll and\n'
+				'but then that blasted librarian felt the need to take a midnight stroll and\n'
 				'found me! I will surely spend the rest of my days and moreso beyond rotting\n'
 				'away in this cell... but perhaps, if another were to find this journal, they\n'
 				'can exact my revenge and clain the treasure. If you\'re reading this, know\n'
